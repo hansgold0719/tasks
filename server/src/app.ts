@@ -10,7 +10,7 @@ const app: Application = express();
 connection();
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Shopping API");
+  res.send("Task API");
 });
 
 app.use(cors({ origin: "*" }));
