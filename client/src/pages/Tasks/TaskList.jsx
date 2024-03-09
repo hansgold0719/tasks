@@ -126,9 +126,9 @@ const TaskList = () => {
   const getStatusColor = (status) => {
     switch (status) {
       case "done":
-        return "cyan-400";
+        return "cyan-500";
       case "progress":
-        return "pink-400";
+        return "pink-500";
       default:
         return "gray-400";
     }
